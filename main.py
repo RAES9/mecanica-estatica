@@ -6,6 +6,8 @@ st.set_page_config(layout="wide")
 st.title("🔍 Ejercicio 3.24 – Momento de una Fuerza 3D con Visualización y Análisis")
 
 # Sidebar – Parámetros editables
+
+st.sidebar.header("UVG CAMPUS SUR")
 st.sidebar.header("📏 Parámetros del sistema")
 altura_y = st.sidebar.number_input("Altura del techo (y)", value=90)
 ancho_x = st.sidebar.number_input("Ancho del puntal (x)", value=5)
@@ -14,6 +16,8 @@ altura_AD = st.sidebar.number_input("Distancia AD (y)", value=6)
 dist_BD_z = st.sidebar.number_input("Distancia BD (z)", value=66)
 dist_DC_x = st.sidebar.number_input("Distancia DC (x)", value=48)
 fuerza_magnitud = st.sidebar.number_input("Fuerza aplicada (lb)", value=57.0)
+
+st.sidebar.text("Esteban Rivas – 23703 \nClaudia Gómez – 23701 \nEduar Hidalgo – 231473 \nNoé Ramírez – 231626")
 
 # Enunciado dinámico
 st.markdown(f"""
